@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ProjectPlan.Core.Enums;
 using ProjectPlan.Entities;
 using Project = ProjectPlan.Models.Project;
 using User = ProjectPlan.Models.User;
@@ -26,7 +27,7 @@ namespace ProjectPlan.Core.Extensions
                     EndDate = endDate,
                     AssignedDate = userProject.AssignedDate,
                     Credits = userProject.Project.Credits,
-                    IsActive = currentDate > endDate && currentDate < assignedDate,
+                    IsActive = currentDate > endDate && currentDate < assignedDate ? StatusEnum.Active : StatusEnum.Inactive,
                     TimeToStart = startDate - assignedDate
                 };
 

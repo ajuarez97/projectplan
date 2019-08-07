@@ -1,4 +1,5 @@
 ﻿using System;
+using ProjectPlan.Core.Enums;
 
 namespace ProjectPlan.Models
 {
@@ -16,6 +17,6 @@ namespace ProjectPlan.Models
 
         public int Credits { get; set; }
 
-        public bool IsActive { get; set; }
+        public StatusEnum IsActive { get; set; }
     }
 }

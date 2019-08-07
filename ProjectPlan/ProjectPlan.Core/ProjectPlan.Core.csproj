@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\StatusEnum.cs" />
     <Compile Include="Mapper.cs" />
     <Compile Include="Extensions\ProjectExtension.cs" />
     <Compile Include="Extensions\UserExtension.cs" />

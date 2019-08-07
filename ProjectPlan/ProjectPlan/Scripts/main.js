@@ -1,5 +1,5 @@
 ﻿ProjectPlan = function () {
-    this.getUserInformationUrl = '@Url.Action("HomeController","GetUserInformation")';
+    this.getUserInformationUrl = "Home/GetUserInformation";
 }
 
 ProjectPlan.prototype.bindEvents = function () {
@@ -17,7 +17,7 @@ ProjectPlan.prototype.getUserInformation = function () {
 
     $.ajax({
         url: self.getUserInformationUrl,
-        data: "{userId:'" + id + "'}",
+        data: "userId=" + id,
         type: "GET",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
@@ -31,20 +31,22 @@ ProjectPlan.prototype.getUserInformation = function () {
 
 ProjectPlan.prototype.fillUserTable = function (projects) {
     var dataLength = projects.length;
-    var htmlContent = "<tbody>" + "<tr>";
+    var htmlContent = "<tbody>";
 
     for (var i = 0; i < dataLength; i++) {
         var project = projects[i];
 
+        htmlContent += " <tr >";
         htmlContent += "<th scope='row'>" + project.Id + "</th>";
         htmlContent += "<th>" + project.StartDate + "</th>";
         htmlContent += "<th>" + project.TimeToStart + "</th>";
         htmlContent += "<th>" + project.EndDate + "</th>";
         htmlContent += "<th>" + project.Credits + "</th>";
-        htmlContent += "<th>" + project.Status + "</th>";
+        htmlContent += "<th>" + project.IsActive + "</th>";
+        htmlContent += " </tr >";
     }
 
-    htmlContent += " </tr >" + "</tbody>";
+    htmlContent +=  "</tbody>";
 
     $("#table_userInformation").append(htmlContent);
 }
