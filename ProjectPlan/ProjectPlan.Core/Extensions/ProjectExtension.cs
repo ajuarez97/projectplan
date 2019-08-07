@@ -28,7 +28,7 @@ namespace ProjectPlan.Core.Extensions
                     AssignedDate = userProject.AssignedDate,
                     Credits = userProject.Project.Credits,
                     IsActive = currentDate > endDate && currentDate < assignedDate ? StatusEnum.Active : StatusEnum.Inactive,
-                    TimeToStart = startDate - assignedDate
+                    TimeToStart = (assignedDate - startDate).Days
                 };
 
                 userModel.Projects.Add(projectModel);
