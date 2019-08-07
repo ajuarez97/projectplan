@@ -1,13 +1,15 @@
-﻿<div class="btn-group" role="group" aria-label="...">
+﻿@model ProjectPlan.Models.Globals
+
+<div class="btn-group" role="group" aria-label="...">
     <div class="btn-group" role="group">
-        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-            <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-            @*<li id="@Model.Id">@Model.FirstName</li>*@
-            <li>Test</li>
-        </ul>
+        <select class="form-control" id="select_Users">
+            <option selected id="none">--</option>
+
+            @foreach (var user in Model.Users)
+            {
+                <option id="@user.Id">@($"{user.FirstName} {user.LastName}")</option>
+            }
+        </select>
     </div>
 
     <button type="button" class="btn btn-default" id="btn_findUser">

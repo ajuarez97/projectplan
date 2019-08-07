@@ -1,0 +1,11 @@
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\bin\Debug\ProjectPlan.Entities.dll.config
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\bin\Debug\ProjectPlan.Entities.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\bin\Debug\ProjectPlan.Entities.pdb
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\bin\Debug\EntityFramework.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\bin\Debug\EntityFramework.xml
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\obj\Debug\ProjectPlan.Entities.csproj.CoreCompileInputs.cache
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\obj\Debug\ProjectPlan.Entities.csproj.CopyComplete
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\obj\Debug\ProjectPlan.Entities.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Entities\obj\Debug\ProjectPlan.Entities.pdb

@@ -1,0 +1,15 @@
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\obj\Debug\ProjectPlan.Core.csprojAssemblyReference.cache
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\obj\Debug\ProjectPlan.Core.csproj.CoreCompileInputs.cache
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\ProjectPlan.Core.dll.config
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\ProjectPlan.Core.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\ProjectPlan.Core.pdb
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\EntityFramework.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\ProjectPlan.Entities.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\ProjectPlan.Entities.pdb
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\ProjectPlan.Entities.dll.config
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\EntityFramework.xml
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\obj\Debug\ProjectPlan.Core.csproj.CopyComplete
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\obj\Debug\ProjectPlan.Core.dll
+C:\Users\jachio\Documents\projectplan\ProjectPlan\ProjectPlan.Core\obj\Debug\ProjectPlan.Core.pdb

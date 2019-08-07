@@ -1,21 +1,23 @@
 ﻿ProjectPlan = function () {
-    this.routes.getUserInformation = "HomeController/GetUserInformation";
-
-    this.bindEvents();
+    this.getUserInformationUrl = '@Url.Action("HomeController","GetUserInformation")';
 }
 
 ProjectPlan.prototype.bindEvents = function () {
     var self = this;
 
-    $("#btn_findUser").click(self.getUserInformation);
+    $("#btn_findUser").on("click", self.getUserInformation);
 }
 
 ProjectPlan.prototype.getUserInformation = function () {
-    var self = this;
+    var self = projectPlanInstance;
+    var id = $("#select_Users").children(":selected").attr("id");
+
+    if (id === "none")
+        return;
 
     $.ajax({
-        url: self.routes.getUserInformation,
-        data: "{ userId : '" + id + "' }",
+        url: self.getUserInformationUrl,
+        data: "{userId:'" + id + "'}",
         type: "GET",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
@@ -46,3 +48,8 @@ ProjectPlan.prototype.fillUserTable = function (projects) {
 
     $("#table_userInformation").append(htmlContent);
 }
+
+$(function () {
+    projectPlanInstance = new ProjectPlan;
+    projectPlanInstance.bindEvents();
+});

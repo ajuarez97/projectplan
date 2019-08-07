@@ -14,6 +14,12 @@ namespace ProjectPlan
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "GetUserInformation",
+                url: "{controller}/{action}/{userId}",
+                defaults: new { controller = "Home", action = "GetUserInformation", userId = UrlParameter.Optional }
+            );
         }
     }
 }
